@@ -4,7 +4,6 @@
 vim.g.lazyvim_picker = "telescope"
 
 vim.opt.number = true
-
 vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
