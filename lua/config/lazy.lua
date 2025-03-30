@@ -19,11 +19,16 @@ require("lazy").setup({
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import/override with your plugins
+    {
+      "LazyVim/LazyVim",
+      opts = {
+        colorscheme = "catppuccin-mocha",
+      },
+    },
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.json" },
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
-    { "akinsho/toggleterm.nvim", version = "*", config = true },
     {
       "nvim-treesitter/nvim-treesitter",
       opts = {
