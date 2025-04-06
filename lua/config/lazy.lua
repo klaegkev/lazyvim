@@ -52,27 +52,6 @@ require("lazy").setup({
         virtual_text_column = 1, -- virtual text start column, check Start virtual text at column section for more options
       },
     },
-    {
-      "nvim-treesitter/nvim-treesitter",
-      opts = {
-        ensure_installed = {
-          "bash",
-          "html",
-          "javascript",
-          "json",
-          "lua",
-          "markdown",
-          "markdown_inline",
-          "python",
-          "query",
-          "regex",
-          "tsx",
-          "typescript",
-          "vim",
-          "yaml",
-        },
-      },
-    },
     { import = "plugins" },
   },
   defaults = {
